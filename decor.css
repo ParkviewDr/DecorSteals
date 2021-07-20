@@ -41,6 +41,7 @@ a {
 
 .container-background {
     background-image: url("images/summer21-home-background.jpg");
+    
 }
 /* Container holding the image and the text */
 .container {
@@ -50,6 +51,7 @@ a {
   grid-template-rows: 375px 375px;
   grid-gap: 1rem;
   }
+
   .item {
       background-color:black;
       color:white;
@@ -57,32 +59,35 @@ a {
 
   } 
 
-  #today{
-    margin: 120px 0px 0px 50px;
-    padding:40px;
+  .today{
+    margin: 140px 0px 0px 0px;
     font-size:30px;
+    padding:20px 100px;
+   
+    
     
   }
 
-  #special {
+
+  .special {
     font-family: 'Dancing Script', cursive;
     font-size: 44px;
   }
 
   #how {
-
-      display:flex;
-      align-items:flex-start;
-      justify-content: flex-end;
-      margin-right:60px;
+      margin-right:0px;
       font-size:24px;
+      display:flex;
+      justify-content: flex-end;
+      padding: -20px 0px;
 
   }
 
-  #demo {
+  .demo {
       background-color:white;
-      padding: 2px 5px 2px 5px;
+      padding: 0px 5px 2px 5px;
       font-size:20px;
+     
       
 
 
@@ -114,4 +119,21 @@ a {
     
 .dif-font{
     font-family: 'Dancing Script', cursive;
+}
+
+.summer {
+    margin: 10px 100px 40px 200px;
+}
+
+.carousel-wrapper {
+    margin:30px 30px 50px 30px;
+    display:flex;
+    flex-direction: row;
+}
+
+.carousel-item {
+    width: 250px;
+    height: 100px;
+    padding:20px;
+    margin-bottom:50px;
 }
